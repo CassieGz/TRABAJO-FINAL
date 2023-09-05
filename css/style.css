@@ -510,6 +510,10 @@ button.descuento{
         font-size: small;
     }
 
+    .btn-wsp{
+        bottom: 80px;
+        right: 25px;
+    }
 
     #servicios{
         width: 100%;
