@@ -664,22 +664,6 @@ form{
     background-color: #9575de;
 }
 
-.descarga i{
-    background:#6554af;
-    bottom: 80px;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
-    color: #ffffff;
-    font-size: 40px;
-    line-height: 75px;
-    position: fixed;
-    right: 60px;
-    text-align:center;
-    width: 80px;
-    height: 80px;
-    border-radius: 50px;
-    z-index: 100;
-}
-
 @media (max-width:320px){
 
     .feedback{
@@ -743,7 +727,7 @@ form{
         border-color: #9575de;
         font-size: large;
         table-layout:auto;
-        margin: 0px 20px;
+        margin: 0px 0px;
         width: 100%;
     }
     
@@ -799,6 +783,22 @@ form{
         color: #6554af;
     }
 
+    .descarga i{
+        background:#6554af;
+        bottom: 80px;
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+        color: #ffffff;
+        font-size: 40px;
+        line-height: 75px;
+        position: fixed;
+        right: 40px;
+        text-align:center;
+        width: 80px;
+        height: 80px;
+        border-radius: 50px;
+        z-index: 100;
+    }
+
 /* -----------------MEDIA QUERIES HORARIOS-------------------------- */
 
 @media (max-width:320px){
@@ -826,6 +826,10 @@ form{
     .tarde .turno{
         font-size: medium;
 
+    }
+
+    .descarga i{
+        right: 20px;
     }
 
 }
@@ -856,6 +860,10 @@ form{
     .tarde .turno{
         font-size: medium;
 
-    }  
+    }
+
+    .descarga i{
+        right:25px;
+    }
 
 }
