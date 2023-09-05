@@ -1,0 +1,857 @@
+html,body {
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+h1{
+    font-size:xx-large;
+    text-align: center;
+}
+
+h2{
+    font-size: x-large;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+
+    text-decoration: underline;
+   
+}
+
+.bienvenida{
+    background-image: url(../img/dots_.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+    margin:0px;
+    padding: 50px 0px 50px 0px;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    
+}
+
+button.saludo{
+
+    background-color: #45cfdd;
+    margin-right: 10px;
+
+}
+
+button.descuento{
+    background-color: #45cfdd;
+    margin-left: 10px;
+}
+
+.bienvenida h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: xxx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-wsp{
+    background:#25d366;
+    bottom: 80px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 60px;
+    position: fixed;
+    right: 60px;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    z-index: 100;
+}
+
+.btn-wsp:hover{
+    text-decoration: none;
+    color: #25d366;
+    background: #ffffff;
+
+}
+
+
+.myCarousel{
+    background: #b2a4ff;
+    padding: 75px 30px 50px 30px;
+}
+
+#servicios{
+    background: #a7ede7;
+    width: 100%;
+    margin: 0;
+    padding: 40px 10px 80px 10px;
+}
+
+.servicios_titulo{
+    background-color: #e966a0;
+    color:#ffffff;
+    font-size:xx-large;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 10px 2px 10px 2px;
+    text-transform:uppercase;
+}
+
+.spot h2{
+    text-align: center;
+    font-size: x-large;
+    margin: 20px 20px;
+    padding: 10px 10px;
+}
+
+.web{
+    background: #f1e8ae;
+    width: 100%;
+    margin: 0 auto;
+    padding: 45px 0px 45px 0px;
+   
+}
+
+.web h1{
+    background-color: #e966a0;
+    font-size:xx-large;
+    color:#ffffff;
+    text-align: center;
+    text-transform:uppercase;
+    padding: 10px 2px 10px 2px;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+.web h2{
+    margin: 15px 15px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+}
+
+.web p{
+    font-size: large;
+    margin: 1em 2em 1em 2em;
+    padding: 20px 10px 10ox 10px;
+}
+
+.web img{
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.web img:hover{
+    transform: scale(1.2);
+}
+
+.nosotros{
+    background: #f8a6a6;
+    width: 100%;
+    margin: 0 auto;
+    padding: 45px 0px;
+    text-align: center;
+}
+
+#conocenos{
+    background-color: #e966a0;
+    font-size:xx-large;
+    color:#ffffff;
+    text-transform:uppercase;
+    padding: 10px 2px 10px 2px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.nosotros p{
+    font-size:large;
+    margin: 1em 2em 1em 2em;
+    padding: 20px 10px 10px 10px;
+}
+
+.equipo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.equipo li{
+    padding-top: 15px;
+    padding-bottom:15px;
+}
+
+
+.equipo li img{
+    border-radius: 100%;
+    width: 250px;
+    box-shadow:0 1px 10px rgba(0, 0, 0, 0.2) ;
+}
+
+.equipo li p{
+    font-size:medium;
+    margin: 1em 2em 1em 2em;
+    padding: 0px 5px 0px 5px;
+    line-height: 2px;    
+}
+
+
+.destacados{
+    background: #bfd1d1;
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 0px 100px 0px;
+    text-align: left;
+}
+
+.destacados h1{
+    background-color: #e966a0;
+    font-size:xx-large;
+    color:#ffffff;
+    text-transform:uppercase;
+    padding: 10px 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/* .destacados h3{
+    font-size: x-large;
+} */
+
+.card{
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    margin: 20px 25px 20px 25px;
+    padding-bottom: 25px;
+    /*para efecto suave*/
+    transition: all 400ms ease;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    /*movimiento en el eje y(hacia arriba)*/
+    transform: translateY(-3%);
+}
+
+.card img{
+    width: 20%;
+    height: auto;
+    margin: 20px;
+
+}
+
+.pie{
+    padding: 20px 10px;
+}
+
+.rrss{
+    display: inline-block;
+    font-size: 25px;
+    margin: 0 15px;
+    padding-top: 10px;
+}
+
+.rrss i:hover{
+    transform: scale(2);
+}
+
+.copy{
+    margin: 0 15px;
+}
+
+/*--------------------------------MEDIA QUERIES -------------------------------------------*/
+
+@media (max-width:320px){
+
+    html,body{
+        max-width: 320px;
+        height: auto;
+        margin: 0;
+        padding:0;
+    }
+
+    h2{
+        font-size: medium;
+        margin: 5px 5px 5px 5px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .bienvenida{
+        padding: 20px;
+    }
+
+
+    .bienvenida h1{
+        font-size: large;
+    }
+
+    .botones{
+        padding-top: 5px;    
+    }
+
+    button.saludo{
+        padding: 10px 10px;
+        font-size: small;
+    }
+
+    button.descuento{
+        padding: 10px 10px;
+        font-size: small;
+    }
+
+    .btn-wsp{
+        bottom: 20px;
+        right: 20px;
+    }
+
+    #servicios{
+        margin: 0;
+        padding-right: 0px;
+    }
+
+    .servicios_titulo{
+        font-size: medium;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .imagenTipos_web{
+        display: none;
+    }
+
+    .imagen_cohete{
+        display: none;
+    }
+
+    .imagenTipos_marketing{
+        display: none;
+    }
+
+    .imagen_hostingAws{
+        display: none;
+    }
+
+    .spot h2{
+        text-align: center;
+        font-size: large;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .spot iframe{
+        max-width: 90%;
+        height: auto;
+
+    }
+
+    .web{
+        padding-right: 0px;
+    }
+
+    .web h1{
+        font-size:medium;
+        text-align: center;
+        text-transform:uppercase;
+        padding: 10px 2px 10px 2px;
+        margin-left: 25%;
+        margin-right: 25%;
+
+    }
+
+    .web p{
+        font-size: medium;
+        margin: 1em 2em 1em 2em;
+        padding: 20px 10px 10ox 10px;
+    }
+
+    .frase{
+        width: 90%;
+        margin:0 auto;
+    }
+
+    #conocenos{
+        font-size:medium; 
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 20px;
+        padding: 8px 20px;
+        text-align: center;
+        text-transform:uppercase;
+    }
+
+    .nosotros{
+        width: 100%;
+        margin: 0 auto;
+        padding:10px 0;
+    }
+
+    .nosotros p{
+        font-size:medium;
+        margin: 2em 2em;
+        padding: 10px;
+    }
+
+    .equipo{
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .equipo li{
+        margin:0;
+    }
+
+    .equipo li img{
+        border-radius: 100%;
+        width: 200px;
+        min-height: auto;
+        margin: 0 auto;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .equipo li p{
+        font-size:x-small;
+        margin: 1em 0.5em 0.5em 1em;
+        padding: 7px 10px 7px 10px;
+        line-height: 0.5px;    
+    }
+
+
+    .destacados{
+        width: 100%;
+        margin: 0 auto;
+        padding: 45px 0px 45px 0px;
+    }
+
+    .destacados h1{
+        font-size:medium;
+        padding: 10px 20px 10px 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+        text-transform:uppercase;
+    }
+
+    .destacados h3{
+        font-size: medium;
+    }
+
+    .destacados ul{
+        margin: 10px 20px;
+        padding-left: 10px;
+    }
+
+    .destacados li{
+        text-align: left;
+        font-size: medium;
+    }
+
+    .rrss{
+        display: inline-block;
+        margin: 0 20px;
+
+    }
+
+    .rrss i:hover{
+        transform: scale(2);
+    }
+
+    .copy{
+        font-size: small;
+        margin: 0 20px;
+    }
+    
+}
+
+@media (min-width:321px) and (max-width:768px){
+
+    html,body{
+        max-width: 768px;
+        height: auto;
+        margin: 0;
+        padding:0;
+    }
+
+    h1{
+        font-size: medium;
+    }
+
+    h2{
+        font-size: small;
+    }
+    
+    .bienvenida{
+        padding: 35px 0px;
+    }
+
+    .bienvenida h1{
+        font-size: x-large;
+    }
+
+    .botones{
+        padding: 0px;
+    }
+
+    button.saludo{
+        padding: 10px 10px;
+        font-size: small;
+    }
+
+    button.descuento{
+        padding: 10px 10px;
+        font-size: small;
+    }
+
+
+    #servicios{
+        width: 100%;
+        margin: 0;
+        padding: 50px 0px 50px 0px;
+    }
+
+    .servicios_titulo{
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 25px;
+    }
+
+    .spot h2{
+        margin: 20px 50px;
+        padding: 15px;
+    }
+
+    .spot iframe{
+        max-width: 80%;
+        height: 250px;
+        margin: 20px;
+
+    }
+    
+    .web{
+        padding: 45px 0px 45px 0px;
+    }
+
+    .web h2{
+        text-transform: uppercase;
+    }
+
+    .frase{
+        width: 90%;
+        margin:0 auto;
+    }
+
+    .nosotros{
+        padding: 45px 0px 45px 0px;
+    }
+
+    #conocenos{
+        font-size: 1.5em;
+        margin-left: 15%;
+        margin-right: 15%;
+        text-transform:uppercase;
+    }
+    .equipo{
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .equipo li{
+        margin:0 0 0 0;
+    }
+
+    .equipo li img{
+        border-radius: 100%;
+        width: 200px;
+        min-height: auto;
+        margin: 0 auto;
+        padding-left: 5px;
+        padding-right: 5px;
+        box-shadow:none;
+    }
+
+    .equipo li p{
+        font-size:small;
+        margin: 1em 0.5em 0.5em 1em;
+        padding: 7px 10px 7px 10px;
+        line-height: 0.5px;    
+    }
+
+    .destacados{
+        padding: 45px 0px 45px 0px;
+    }
+
+    .destacados h1{
+        font-size: 1.5em;
+        margin-right: 10%;
+        margin-left: 10%;
+        
+    }
+
+    .destacados h3{
+        font-size: 1em;
+    }
+
+    .pie{
+        margin:0 auto;
+    padding: 15px 0px 15px 0px;
+    }
+
+
+
+}
+
+@media (min-width:769px){
+
+}
+
+/*-------------------------------- ESTILOS FORMULARIO ----------------------------------------*/
+
+.feedback{
+    background: #b2a4ff ;
+    width: 100%;
+    height: 80%;
+    margin: 0 0 0 0;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+}
+.contacto{
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+}
+
+.contacto h1{
+    background-color: #e966a0;
+    font-size:xx-large;
+    color:#ffffff;
+    padding: 10px 2px 10px 2px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+form{
+    background-color: #fdf7c3;
+    border-radius: 2.5%;
+    border-style:none;
+    padding: 35px 30px 35px 30px;
+    margin:0 auto;
+    text-align:start;
+    display: inline-block;  
+}
+
+.cas{
+    background-color: #e966a0;
+    border-color: #9575de;
+    border-style: none;
+    /*borré border-width: 2px; */
+    margin: 10px 0px;
+}
+
+.cas:hover{
+    background-color: #9575de;
+}
+
+.descarga i{
+    background:#6554af;
+    bottom: 80px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 75px;
+    position: fixed;
+    right: 60px;
+    text-align:center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    z-index: 100;
+}
+
+@media (max-width:320px){
+
+    .feedback{
+        width: 100%;
+        height: auto;
+    }
+
+    .contacto h1{
+        font-size:medium;
+        padding: 10px 2px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .contacto p{
+        font-size: small;
+        text-align: center;
+    }
+    
+
+}
+
+@media (min-width:321px) and (max-width:768px){
+    .contacto h1{
+        font-size:large;
+        padding: 10px 2px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .contacto p{
+        font-size: small;
+        text-align: center;
+    }
+
+}
+
+/*-------------------------------- ESTILOS TABLA ----------------------------------------*/
+
+    .horarios{
+    background-color: #b2a4ff;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0px;
+    }
+    
+    .horarios .titulo{
+        background-color: #e966a0;
+        font-size:xx-large;
+        color:#ffffff;
+        padding: 20px 10px;
+        margin-left: 35%;
+        margin-right: 35%;
+    
+    }
+    
+    .cs-table{
+        background: #eaeaea;
+        border-color: #9575de;
+        font-size: large;
+        table-layout:auto;
+        margin: 0px 20px;
+        width: 100%;
+    }
+    
+     /* tr{
+    margin: 5px;
+    padding: 5px;
+    }
+
+    td{
+        margin: 5px;
+        padding: 5px;
+    } */
+
+    .dias{
+        font-size:large;
+    }
+
+    .dias .habiles{
+        color: #9575de;
+    }
+
+    .dias .finde{
+        color:#e966a0;
+    }
+
+    .manana .turno{
+    font-size: large;
+    color: #7f8487;
+    }
+
+    .manana .habiles{
+        color: #9575de;
+    }
+
+    .manana .finde{
+        color:#e966a0;
+    }
+
+    .tarde .turno{
+        font-size: large;
+        color: #7f8487;
+        }
+
+    .tarde .habiles{
+        color: #9575de;
+    }
+
+    .tarde .finde{
+        color:#e966a0;
+    }
+
+    .virtual{
+        color: #6554af;
+    }
+
+/* -----------------MEDIA QUERIES HORARIOS-------------------------- */
+
+@media (max-width:320px){
+
+    .horarios .titulo{
+        font-size: large;
+        text-align: center;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .cs-table{
+        font-size: small;
+    }
+
+    .dias{
+        font-size:medium;
+    }
+
+    .manana .turno{
+        font-size: medium;
+        
+    }
+
+    .tarde .turno{
+        font-size: medium;
+
+    }
+
+}
+
+@media (min-width:321px) and (max-width:768px){
+
+    .horarios .titulo{
+        font-size: larger;
+        text-align: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 20px;
+    }
+
+    .cs-table{
+        font-size: small;
+    }
+
+    .dias{
+        font-size:medium;
+    }
+
+    .manana .turno{
+        font-size: medium;
+        
+    }
+
+    .tarde .turno{
+        font-size: medium;
+
+    }  
+
+}

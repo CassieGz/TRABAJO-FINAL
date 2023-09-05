@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Horarios de atención</title>
+</head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="http://127.0.0.1:5500/index.html"><img id="logo" src="./img/logo.png" width="130" height="auto">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="http://127.0.0.1:5500/index.html#servicios">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="http://127.0.0.1:5500/index.html#conocenos">Nosotros</a>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="horarios.html" target="_blank">Horarios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="contacto.html" target="_blank">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="horarios">
+                <h2 class="titulo">HORARIOS DE ATENCION</h2>
+                <div class="container">
+                    <table class="table table-bordered table-dark table-sm table-responsive-sm cs-table" border="2">
+                        <tr><td colspan="6"><u>Oficinas</u></td></tr>
+                        <tr class="dias">
+                            <td></td>
+                            <td colspan="2" class="habiles"><b>Lunes a viernes</b></td>
+                            <td colspan="2" class="finde"><b>Sábado</b></td>
+                            <td class="finde"><b>Domingo</b></td>
+                        </tr>
+                        <tr class="manana">
+                            <td colspan="1" class="turno"><b>Mañana</b></td>
+                            <td colspan="2" class="habiles"><i> 8.30 h a 12.30 h</i></td>
+                            <td colspan="2" class="finde"><i>De 9 h a 12.30 h</i></td>
+                            <td rowspan="2" class="finde"><i>Cerrado</i></td>
+                        </tr>
+                        <tr class="tarde">
+                            <td colspan="1" class="turno"><b>Tarde</b></td>
+                            <td colspan="2" class="habiles"><i>De 16.30 h a 20.30 h</i></td>
+                            <td colspan="2" class="finde"><i>Cerrado</i></td>
+                        </tr>
+                        <tr>
+                            <td colspan="6"><u>Contacto virtual</u></td>
+                        </tr>
+                        <tr><td colspan="6" class="virtual"><i>atención las 24hs</i></td></tr>
+                        
+                    </table>
+                </div>
+                <div class="descarga">
+                    <a href="./pdf/horarios.pdf" title="Descarga horarios" target="_blank" download=""><i class="fa-solid fa-file-arrow-down"></i></a>
+                </div>
+        </section>
+        </main>
+        <footer class="bg-dark d-flex text-white pie">
+            <div class="container-fluid">
+                <div class="rrss">
+                    <a href="https://es-la.facebook.com/" title="facebook"><i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></a>
+                    <a href="https://www.instagram.com/" title="instagram"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                    <a href="https://twitter.com/?lang=es" title="twitter"><i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i></a>
+                    <a href="#" title="whatsapp"><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i></a>
+                </div>
+                <div class="copy">
+                    <a href="#titulo">Volver al inicio</a>
+                    <p>Cyber Ada Services&copy;2023</p>
+                </div>
+            </div>
+        </footer>
+        <script src="./js/bootstrap.min.js.map"></script>
+    </body>
+</html>

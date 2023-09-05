@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cyber Ada Services</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="http://127.0.0.1:5500/index.html"><img id="logo" src="./img/logo.png" width="130" height="auto">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="http://127.0.0.1:5500/index.html#servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="http://127.0.0.1:5500/index.html#conocenos">Nosotros</a>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="horarios.html" target="_blank">Horarios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contacto.html" target="_blank">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="feedback"> <!--hice una clase para poner color al fondo-->
+            <div class="contacto">
+                <h1>CONTACTANOS!</h1>
+                <p>Respondemos personalmente. No usamos BOTS</p>
+            </div>
+            <div class="container">
+                <form class="formulario" action="#" method="post">
+                    <div class="form-group cs-form">
+                        <label for="nombreCliente">Nombre</label>
+                                <br>
+                        <input type="text" placeholder="Juan" name="nombreCliente"  class="form-control" required>
+                    </div>
+                    <div class="form-group cs-form">
+                        <label for="">Email</label>
+                                <br>
+                        <input type="email" placeholder="email@server.com"  class="form-control" required>
+                    </div>
+                    <div class="form-group cs-form">
+                        <label for="">Teléfono</label>
+                                <br>
+                        <input type="tel" placeholder="xxx-xxxxxxx"  class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="seleccionServicio">Seleccione el servicio de su interés</label>
+                        <br>
+                        <label for="paginaWeb">Diseño Web</label>
+                        <input type="radio" name="servicio">
+                        <select for="paginaWeb" id="paginaWeb" class="form-control cs-form">
+                            <option value=""></option>
+                            <option value="e-commerce">E-commerce</option>
+                            <option value="website">Website</option>
+                            <option value="landing">Landing</option>
+                        </select>
+                        <label for="marketing">Marketing Digital</label>
+                        <input type="radio" name="servicio">
+                        <br>
+                        <label for="hosting">Hosting/Dominio</label>
+                        <input type="radio" name="servicio">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="elMensaje" cols="35" rows="10"
+                        placeholder="Escribe algo..." maxlength="200"  class="form-control cs-form"></textarea>
+                    </div>
+                        <!--reemplazamdo <input type="submit"> -->
+                        <button type="submit" class="btn btn-primary cas">Enviar</button>
+                        <!--reemplazando <input type="reset"> -->
+                        <button type="reset" class="btn btn-primary cas">Restablecer</button>   
+                </form>
+            </div>
+        </section> 
+    </main>
+    <footer class="bg-dark d-flex text-white pie">
+        <div class="container-fluid">
+            <div class="rrss">
+                <a href="https://es-la.facebook.com/" title="facebook"><i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></a>
+                <a href="https://www.instagram.com/" title="instagram"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                <a href="https://twitter.com/?lang=es" title="twitter"><i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i></a>
+                <a href="#" title="whatsapp"><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i></a>
+            </div>
+            <div class="copy">
+                <a href="#titulo">Volver al inicio</a>
+                <p>Cyber Ada Services&copy;2023</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/bootstrap.min.js.map"></script>
+</body>
+
+</html>
